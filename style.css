@@ -172,6 +172,7 @@ a img {
   #skills {
     scroll-margin-top: 100px; /* Offset for navbar height */
   }
+  /* scroll-behavior */
   
   @media (prefers-reduced-motion: no-preference) {
     #skills {
