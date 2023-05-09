@@ -102,3 +102,22 @@ a{
         padding-top: 2rem;
     }
 }
+
+/* image */
+
+a img {
+    display: block;
+    max-width: 200%;
+    height: auto;
+    margin: 0 auto;
+    max-height: 200px; /* Adjust this value to fit the desired height */
+  }
+  
+  .profile-image {
+    display: block;
+    max-width: 300%;
+    height: auto;
+    margin: 0 auto;
+    max-height: 300px; /* Adjust this value to fit the desired height */
+  }
+  
