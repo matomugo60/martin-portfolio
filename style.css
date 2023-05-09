@@ -5,6 +5,7 @@
     display: grid;
     grid-template-columns: repeat(2,1fr);
 }
+/* body */
 
 body{
     margin: 0;
@@ -135,7 +136,7 @@ a img {
     width: 100%;
     z-index: 1;
   }
-  
+  /* navbar links */
   .navbar a {
     color: #fff;
     text-decoration: none;
@@ -172,6 +173,7 @@ a img {
   #skills {
     scroll-margin-top: 100px; /* Offset for navbar height */
   }
+  /* scroll-behavior */
   
   @media (prefers-reduced-motion: no-preference) {
     #skills {
