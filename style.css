@@ -120,4 +120,62 @@ a img {
     margin: 0 auto;
     max-height: 300px; /* Adjust this value to fit the desired height */
   }
+  /* navbar */
+
+  .navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+    font-size: 1.2rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+  }
+  
+  .navbar a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    transition: all 0.3s ease;
+  }
+  
+  .navbar a:hover {
+    background-color: #fff;
+    color: #333;
+  }
+  
+  .section {
+    margin-top: 5rem;
+  }
+  
+  /* Add smooth scrolling to navbar links */
+.navbar a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+  }
+  
+  /* Change background color of navbar links on hover */
+  .navbar a:hover {
+    background-color: #ddd;
+  }
+  
+  /* Add smooth scrolling to skills section */
+  #skills {
+    scroll-margin-top: 100px; /* Offset for navbar height */
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    #skills {
+      scroll-behavior: smooth;
+    }
+  }
   
